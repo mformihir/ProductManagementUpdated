@@ -1,0 +1,156 @@
+﻿@model PagedList.IPagedList<ProductManagement.Models.Product>
+@using PagedList.Mvc;
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2 class="pt-3">Product List</h2>
+
+<p>
+    @Html.ActionLink("Add a product", "Create")
+</p>
+
+@using (Html.BeginForm("Index", "Products", FormMethod.Get))
+{
+    <div class="form-row align-items-center">
+        <div class="col-auto">
+            @Html.DropDownList("searchBy", new List<SelectListItem>
+                {
+                    new SelectListItem{ Text = "Name", Value = "name"},
+                    new SelectListItem{ Text = "Category", Value = "category"},
+                    new SelectListItem{ Text = "Description", Value = "description"},
+                }, "Search By", new { @class = "form-control", id = "searchBy" }
+            )
+        </div>
+        <div class="col-auto">
+            @Html.TextBox("SearchString", ViewBag.CurrentFilter as string, new { @class = "form-control" })
+        </div>
+        <div class="col-auto">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </div>
+    </div>
+}
+
+@using (Html.BeginForm("DeleteMultiple", "Products", FormMethod.Get))
+{
+    <table class="table table-hover mt-3">
+        <thead class="thead-light">
+            <tr>
+                <th scope="col" class="text-center">
+                    <input type="checkbox" id="checkAll" class="js-check-all" value="" />
+                </th>
+                <th scope="col" class="text-center">
+                    Product Image
+                </th>
+                <th scope="col" class="text-center">
+                    @Html.ActionLink("Name", "Index", new { sortOrder = ViewBag.NameSortParm, currentFilter = ViewBag.CurrentFilter }, new { title = "Click to sort products by Name Ascending/Descending" })
+                </th>
+                <th scope="col" class="text-center">
+                    @Html.ActionLink("Category", "Index", new { sortOrder = ViewBag.CategorySortParm, currentFilter = ViewBag.CurrentFilter }, new { title = "Click to sort products by Category Ascending/Descending" })
+                </th>
+                <th scope="col" class="text-center">
+                    @Html.ActionLink("Price", "Index", new { sortOrder = ViewBag.PriceSortParm, currentFilter = ViewBag.CurrentFilter }, new { title = "Click to sort products by Price Ascending/Descending" })
+                </th>
+                <th scope="col" class="text-center">
+                    Description
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td class="text-center">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input js-check-all" value="@item.ID" name="deleteItemIDs" />
+                        </div>
+                    </td>
+                    <td class="text-center">
+                        <img src="@Url.Content(item.ProductSmallImagePath)" class="img-thumbnail" alt="product photo" height="100" width="100" />
+                    </td>
+                    <td class="text-center">
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td class="text-center">
+                        @Html.DisplayFor(modelItem => item.Category.Name)
+                    </td>
+                    <td class="text-center">
+                        @* To format Product Price *@
+                        @String.Format("{0:#,##,##,###.00}", item.Price)
+                    </td>
+                    <td class="text-center">
+                        @Html.DisplayFor(modelItem => item.ShortDesc)
+                    </td>
+                    <td class="text-center">
+                        @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
+                        <a href="#" onclick="Delete(@item.ID)">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+
+    </table>
+    <div class="btn-group">
+        <input type="submit" class="btn btn-outline-danger" value="Delete" />
+    </div>
+}
+
+<br />
+    Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+
+    @Html.PagedListPager(Model, page => Url.Action("Index",
+        new { page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter }))
+
+    @section Scripts{
+        <script type="text/javascript">
+            function Delete(id) {
+                $.ajax({
+            type: "POST",
+            url: '/Products/DeleteAjax/' + id,
+            dataType: "json",
+            contentType: "application/json; charset=utf-8",
+            success: function () {
+                alert("Data has been deleted.");
+                location.reload();
+            },
+            error: function () {
+                alert("Error while deleting data");
+            }
+        });
+            }
+        $(document).ready(function () {
+
+            if ('@TempData["NotificationSuccess"]' != "") {
+                toastr.success('@TempData["NotificationSuccess"]');
+            }
+
+            if (('@TempData["NotificationInfo"]' != "")) {
+                toastr.info('@TempData["NotificationInfo"]');
+            }
+
+
+
+            $('#checkAll').on('click', function () {
+                if (this.checked) {
+                    $('.js-check-all').each(function () {
+                        this.checked = true;
+                    });
+                } else {
+                    $('.js-check-all').each(function () {
+                        this.checked = false;
+                    });
+                }
+            });
+
+            $('.js-check-all').on('click', function () {
+                if ($('.js-check-all:checked').length == $('.js-check-all').length) {
+                    $('#checkAll').prop('checked', true);
+                } else {
+                    $('#checkAll').prop('checked', false);
+                }
+            });
+        });
+        </script>
+    }

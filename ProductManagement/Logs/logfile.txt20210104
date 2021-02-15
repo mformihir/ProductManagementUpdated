@@ -1,0 +1,21 @@
+2021-01-04 19:05:11,868 [33] ERROR ProductManagement.Controllers.ProductsController [(null)] - Exception occured
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at ProductManagement.Controllers.ProductsController.Index(String sortOrder, String searchString, String searchBy, Nullable`1 page, String currentFilter) in E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\Controllers\ProductsController.cs:line 35
+2021-01-04 19:05:29,532 [56] ERROR ProductManagement.Controllers.ProductsController [(null)] - Exception occured
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at ProductManagement.Controllers.ProductsController.Index(String sortOrder, String searchString, String searchBy, Nullable`1 page, String currentFilter) in E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\Controllers\ProductsController.cs:line 35
+2021-01-04 19:06:29,538 [9] ERROR ProductManagement.Controllers.ProductsController [(null)] - Exception occured
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at ProductManagement.Controllers.ProductsController.Index(String sortOrder, String searchString, String searchBy, Nullable`1 page, String currentFilter) in E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\Controllers\ProductsController.cs:line 35
+2021-01-04 19:52:51,725 [6] ERROR ProductManagement.Controllers.ProductsController [(null)] - Exception occurred
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at ProductManagement.Controllers.ProductsController.Index(String sortOrder, String searchString, String searchBy, Nullable`1 page, String currentFilter) in E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\Controllers\ProductsController.cs:line 44
+2021-01-04 19:54:22,570 [7] ERROR ProductManagement.Controllers.ProductsController [(null)] - Exception occurred
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at ProductManagement.Controllers.ProductsController.Index(String sortOrder, String searchString, String searchBy, Nullable`1 page, String currentFilter) in E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\Controllers\ProductsController.cs:line 44
+2021-01-04 19:55:05,654 [11] ERROR ProductManagement.Controllers.ProductsController [(null)] - Exception occurred
+System.Exception: Exception of type 'System.Exception' was thrown.
+   at ProductManagement.Controllers.ProductsController.Index(String sortOrder, String searchString, String searchBy, Nullable`1 page, String currentFilter) in E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\Controllers\ProductsController.cs:line 44
+2021-01-04 20:02:18,654 [23] ERROR ProductManagement.Controllers.ProductsController [(null)] - Called DeleteMultiple without selecting any products.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ProductManagement.Controllers.ProductsController.DeleteMultiple(Nullable`1[] deleteItemIDs) in E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\Controllers\ProductsController.cs:line 334

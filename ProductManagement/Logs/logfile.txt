@@ -1,0 +1,3 @@
+2021-02-15 16:33:05,621 [13] ERROR ProductManagement.Controllers.ProductsController [(null)] - Called DeleteMultiple without selecting any products.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ProductManagement.Controllers.ProductsController.DeleteMultiple(Nullable`1[] deleteItemIDs) in E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\Controllers\ProductsController.cs:line 392

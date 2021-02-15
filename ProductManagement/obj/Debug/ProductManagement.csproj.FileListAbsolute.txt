@@ -1,0 +1,240 @@
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\ProductManagement.dll.config
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\ProductManagement.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\ProductManagement.pdb
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\roslyn\csc.exe
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\roslyn\csc.exe.config
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\roslyn\csc.rsp
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\roslyn\csi.exe
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\roslyn\csi.exe.config
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\roslyn\csi.rsp
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\roslyn\System.AppContext.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\roslyn\System.Collections.Immutable.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\roslyn\System.Console.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\roslyn\System.Globalization.Calendars.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\roslyn\System.IO.Compression.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\roslyn\System.IO.FileSystem.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\roslyn\System.Net.Http.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\roslyn\System.Net.Sockets.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\roslyn\System.Reflection.Metadata.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\roslyn\System.ValueTuple.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\roslyn\System.Xml.XPath.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\roslyn\vbc.exe
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\roslyn\vbc.exe.config
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\roslyn\vbc.rsp
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\roslyn\VBCSCompiler.exe
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\roslyn\VBCSCompiler.exe.config
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\Antlr3.Runtime.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\EntityFramework.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\EntityFramework.SqlServer.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\log4net.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\Microsoft.Owin.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\Microsoft.Owin.Security.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\Microsoft.Owin.Security.Google.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\Microsoft.Web.Infrastructure.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\Newtonsoft.Json.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\Owin.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\PagedList.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\PagedList.Mvc.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\System.Net.Http.Formatting.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\System.Web.Helpers.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\System.Web.Http.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\System.Web.Http.WebHost.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\System.Web.Mvc.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\System.Web.Optimization.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\System.Web.Razor.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\System.Web.WebPages.Deployment.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\System.Web.WebPages.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\System.Web.WebPages.Razor.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\WebGrease.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\EntityFramework.xml
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\EntityFramework.SqlServer.xml
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\log4net.xml
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\PagedList.xml
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\PagedList.Mvc.xml
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\System.Web.Helpers.xml
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\System.Web.Mvc.xml
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\System.Web.Optimization.xml
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\System.Web.Razor.xml
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\System.Web.WebPages.xml
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\System.Web.WebPages.Deployment.xml
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\System.Web.WebPages.Razor.xml
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\Newtonsoft.Json.xml
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\Antlr3.Runtime.pdb
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\System.Net.Http.Formatting.xml
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\System.Web.Http.xml
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\System.Web.Http.WebHost.xml
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\Microsoft.Owin.xml
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\Microsoft.Owin.Security.xml
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\Microsoft.Owin.Security.Google.xml
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\obj\Debug\ProductManagement.csprojAssemblyReference.cache
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\obj\Debug\ProductManagement.csproj.CoreCompileInputs.cache
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\obj\Debug\ProductManagement.csproj.CopyComplete
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\obj\Debug\ProductManagement.dll
+E:\Learn\ASP.NET MVC\ProductManagement\ProductManagement\obj\Debug\ProductManagement.pdb
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\ProductManagement.dll.config
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\ProductManagement.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\ProductManagement.pdb
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\roslyn\csc.exe
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\roslyn\csc.exe.config
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\roslyn\csc.rsp
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\roslyn\csi.exe
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\roslyn\csi.exe.config
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\roslyn\csi.rsp
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\roslyn\System.AppContext.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\roslyn\System.Collections.Immutable.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\roslyn\System.Console.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\roslyn\System.Globalization.Calendars.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\roslyn\System.IO.Compression.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\roslyn\System.IO.FileSystem.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\roslyn\System.Net.Http.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\roslyn\System.Net.Sockets.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\roslyn\System.Reflection.Metadata.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\roslyn\System.ValueTuple.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\roslyn\System.Xml.XPath.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\roslyn\vbc.exe
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\roslyn\vbc.exe.config
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\roslyn\vbc.rsp
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\roslyn\VBCSCompiler.exe
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\roslyn\VBCSCompiler.exe.config
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\Antlr3.Runtime.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\EntityFramework.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\EntityFramework.SqlServer.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\log4net.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\Microsoft.Owin.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\Microsoft.Owin.Security.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\Microsoft.Owin.Security.Google.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\Microsoft.Web.Infrastructure.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\Newtonsoft.Json.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\Owin.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\PagedList.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\PagedList.Mvc.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\System.Net.Http.Formatting.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\System.Web.Helpers.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\System.Web.Http.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\System.Web.Http.WebHost.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\System.Web.Mvc.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\System.Web.Optimization.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\System.Web.Razor.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\System.Web.WebPages.Deployment.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\System.Web.WebPages.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\System.Web.WebPages.Razor.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\WebGrease.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\EntityFramework.xml
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\EntityFramework.SqlServer.xml
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\log4net.xml
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\PagedList.xml
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\PagedList.Mvc.xml
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\System.Web.Helpers.xml
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\System.Web.Mvc.xml
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\System.Web.Optimization.xml
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\System.Web.Razor.xml
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\System.Web.WebPages.xml
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\System.Web.WebPages.Deployment.xml
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\System.Web.WebPages.Razor.xml
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\Newtonsoft.Json.xml
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\Antlr3.Runtime.pdb
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\System.Net.Http.Formatting.xml
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\System.Web.Http.xml
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\System.Web.Http.WebHost.xml
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\Microsoft.Owin.xml
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\Microsoft.Owin.Security.xml
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\Microsoft.Owin.Security.Google.xml
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\obj\Debug\ProductManagement.csprojAssemblyReference.cache
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\obj\Debug\ProductManagement.csproj.CoreCompileInputs.cache
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\obj\Debug\ProductManagement.csproj.CopyComplete
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\obj\Debug\ProductManagement.dll
+E:\Learn\Gateway\Assignments-Gateway\Product Management Assignment\ProductManagement\obj\Debug\ProductManagement.pdb

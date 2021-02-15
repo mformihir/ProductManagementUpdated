@@ -1,0 +1,152 @@
+﻿@model ProductManagement.Models.Product
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+
+
+@using (Html.BeginForm("Edit", "Products", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="row justify-content-center">
+        <div class="col-md-6 py-3">
+            <h4>Edit Product</h4>
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            @Html.HiddenFor(model => model.ID)
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label font-weight-bold" })
+                @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.CategoryId, htmlAttributes: new { @class = "control-label font-weight-bold" })
+                @Html.DropDownList("CategoryId", (IEnumerable<SelectListItem>)ViewData["DBCategories"], "Select Category", new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Category, "", new { @class = "text-danger" })
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Price, htmlAttributes: new { @class = "control-label font-weight-bold" })
+                @Html.EditorFor(model => model.Price, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Price, "", new { @class = "text-danger" })
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Quantity, htmlAttributes: new { @class = "control-label font-weight-bold" })
+                @Html.EditorFor(model => model.Quantity, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Quantity, "", new { @class = "text-danger" })
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.ShortDesc, htmlAttributes: new { @class = "control-label font-weight-bold" })
+                @Html.EditorFor(model => model.ShortDesc, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.ShortDesc, "", new { @class = "text-danger" })
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.LongDesc, htmlAttributes: new { @class = "control-label font-weight-bold" })
+                @Html.EditorFor(model => model.LongDesc, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.LongDesc, "", new { @class = "text-danger" })
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.ProductSmallImage, htmlAttributes: new { @class = "control-label font-weight-bold d-block" })
+                <img src="@Url.Content(Model.ProductSmallImagePath)" class="py-3" alt="product photo" id="ProductSmallImageDisplay" />
+                @if (Model.ProductSmallImagePath == null)
+                {
+                    <input type="file" required class="form-control-file" name="ProductSmallImage" id="ProductSmallImage" />
+                }
+                else
+                {
+                    <input type="file" class="form-control-file" name="ProductSmallImage" id="ProductSmallImage" />
+                }
+                @Html.ValidationMessageFor(model => model.ProductSmallImage, "", new { @id = "js-validate-file", @class = "text-danger" })
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.ProductLargeImage, htmlAttributes: new { @class = "control-label font-weight-bold d-block" })
+                @if (Model.ProductLargeImagePath != null)
+                {
+                    <img src="@Url.Content(Model.ProductLargeImagePath)" class="py-3" alt="product photo" id="ProductLargeImageDisplay" />
+                }
+                else
+                {
+                    <img src="" alt="product photo" id="ProductLargeImageDisplay" class="py-3" onerror="this.style.display='none'" />
+                }
+                <input type="file" class="form-control-file" name="ProductLargeImage" id="ProductLargeImage" />
+                @Html.ValidationMessageFor(model => model.ProductLargeImage, "", new { @id = "js-validate-file", @class = "text-danger" })
+            </div>
+
+            <div class="form-group row">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Save" class="btn btn-outline-primary" />
+                    @Html.ActionLink("Cancel", "Index", null, new { @class = "btn btn-outline-secondary" })
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script>
+        $(document).ready(function () {
+
+            //function to validate file extension
+            $("#ProductSmallImage").change(function () {
+                readURL(this);
+                $('#js-validate-file').hide();
+                // Get uploaded file extension
+                var extension = $(this).val().split('.').pop().toLowerCase();
+                var validFileExtensions = ['jpeg', 'jpg', 'png'];
+                if ($.inArray(extension, validFileExtensions) == -1) {
+                    $('#js-validate-file').text("Only .jpeg, .jpg, and .png files are supported ").show();
+                    //clearing fileupload
+                    $(this).replaceWith($(this).val('').clone(true));
+                }
+            });
+
+            $("#ProductLargeImage").change(function () {
+
+                readURL(this);
+                $('#js-validate-file-large').hide();
+                // Get uploaded file extension
+                var extension = $(this).val().split('.').pop().toLowerCase();
+                var validFileExtensions = ['jpeg', 'jpg', 'png'];
+                if ($.inArray(extension, validFileExtensions) == -1) {
+                    $('#js-validate-file-large').text("Only .jpeg, .jpg, and .png files are supported ").show();
+                    //clearing fileupload
+                    $(this).replaceWith($(this).val('').clone(true));
+                }
+            });
+
+            function readURL(input) {
+                var id = input.id;
+                if (input.files && input.files[0]) {
+                    var reader = new FileReader();
+
+                    reader.onload = function (e) {
+                        $("#" + id + "Display").removeAttr('onerror');
+                        $("#" + id + "Display").removeAttr('style');
+                        //$("#" + id + "Display").css('display', 'show');
+                        $("#" + id + "Display").attr('src', e.target.result);
+                        console.log("#" + id + "Display");
+                    }
+
+                    reader.readAsDataURL(input.files[0]); // convert to base64 string
+                }
+            }
+
+
+        });
+    </script>
+
+}

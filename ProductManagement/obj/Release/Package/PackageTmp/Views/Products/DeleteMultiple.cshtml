@@ -1,0 +1,62 @@
+﻿@model IEnumerable<ProductManagement.Models.Product>
+
+@{
+    ViewBag.Title = "DeleteMultiple";
+}
+
+<h2 class="py-3">Are you sure you want to delete the following products?</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col" class="text-center">
+                Product Image
+            </th>
+            <th scope="col" class="text-center">
+                Name
+            </th>
+            <th scope="col" class="text-center">
+                Category
+            </th>
+            <th scope="col" class="text-center">
+                Price
+            </th>
+            <th scope="col" class="text-center">
+                Description
+            </th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td class="text-center">
+                    <img src="@Url.Content(item.ProductSmallImagePath)" class="img-thumbnail" alt="product photo" height="100" width="100" id="ProductSmallImageDisplay" />
+                </td>
+                <td class="text-center">
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td class="text-center">
+                    @Html.DisplayFor(modelItem => item.Category.Name)
+                </td>
+                <td class="text-center">
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td class="text-center">
+                    @Html.DisplayFor(modelItem => item.ShortDesc)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-actions">
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        @Html.ActionLink("Back to List", "Index", null, new { @class = "btn btn-light" })
+    </div>
+}
